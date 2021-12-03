@@ -4,14 +4,11 @@ const naudaKopa = 1000000;
 let uzvaretajuSkaits = 3;
 let rindas = document.querySelector('.rindas');
 //rindas.innerHTML = 'Hello';
-function randFunc(maxCipars) {
-    let random1 = Math.floor(Math.random() * maxCipars);
 
-    return random1;
-}
 for (let i = 0; i < uzvaretajuSkaits; i++) {
-    let rand = randFunc(vardi.lenght);​
-    console.log(vardi[rand]);
+    let rand = Math.random() * vardi.length;​
+    rand = Math.floor(rand);​
+    
 
 
     let uzvaretajs = vardi[rand];
