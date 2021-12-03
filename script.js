@@ -10,8 +10,7 @@ function randFunc(maxCipars) {
     return random1;
 }
 for (let i = 0; i < uzvaretajuSkaits; i++) {
-    let rand = Math.random() * vardi.length;
-    rand = Math.floor(rand);
+    let rand = randFunc(vardi.lenght);​
     console.log(vardi[rand]);
 
 
