@@ -2,12 +2,18 @@ body{
 background-color: lightcyan;}
 table, th, td {
     border: 1px solid black;
-    width: 50%;
+    width: 70%;
     text-align: center;
-    text-size-adjust: 50%;
+    -ms-text-size-adjust:  20px;
+  }
+  td{
+    width: 30%;
+  }
+  thead{
+    height: 20%;
   }
   img{
-    width: 100;
+    width: 100px;
   }
   div{
     font-size: 30px;
@@ -16,7 +22,9 @@ table, th, td {
   button{
     background-color: #4CAF50;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
+    font-style: bold;
+    width:20%;
   }
   
 
