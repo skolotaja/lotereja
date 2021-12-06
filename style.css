@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
   background-color: lightcyan;}
   table, th, td {
       border: 1px solid black;
@@ -28,4 +29,35 @@ body{
       color: chartreuse;
       width:20%;
     }
+=======
+background-color: lightcyan;}
+table, th, td {
+    border: 1px solid black;
+    width: 70%;
+    text-align: center;
+    font-size:  20px;
+  }
+  td{
+    width: 30%;
+  }
+  thead{
+    height: 20%;
+  }
+  img{
+    width: 100px;
+  }
+  div{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  button{
+    background-color: #4c87af;
+
+    text-align: center;
+    font-size: 24px;
+    font-style: bold;
+    color: chartreuse;
+    width:20%;
+  }
+  
 
